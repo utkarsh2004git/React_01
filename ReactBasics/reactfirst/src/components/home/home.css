@@ -1,0 +1,10 @@
+.myhome{
+    /* border: 5px solid red; */
+    font-size: 2rem;
+    color: orange;
+    background-color: black;
+    font-family: cursive;
+    border: 2px solid black;
+    width: max-content;
+    padding: 5px;
+}

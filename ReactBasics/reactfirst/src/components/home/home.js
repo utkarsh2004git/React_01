@@ -1,7 +1,16 @@
 import "./home.css"
 
-const Home=()=>{
-    return <div className="myhome">My Home</div>;
+const Home=({list})=>{
+    return <div className="myhome">
+        My Home
+        <ol>
+            {
+                list.map(item=>{
+                    return <li>{item}</li>
+                })
+            }
+        </ol>
+        </div>;
 
 };
 

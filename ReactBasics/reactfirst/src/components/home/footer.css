@@ -1,11 +1,11 @@
-.myhome{
+.myfooter{
     /* border: 5px solid red; */
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: orange;
+    background-color: black;
     font-family: cursive;
     border: 2px solid black;
     width: max-content;
     padding: 5px;
-    margin:  10px auto;
-    
+    margin: auto;
 }

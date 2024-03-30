@@ -1,7 +1,7 @@
+import "./home/footer.css"
 
-
-const Footer=()=>{
-    return <div>Footer</div>
+const Footer=(props)=>{
+    return <div className="myfooter">{props.notice}</div>
 };
 
 export  default Footer;
